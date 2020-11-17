@@ -1,1 +1,31 @@
-test
+ pwd
+/home/runner/command-line-basics-assignment-NicholasLee03
+ mkdir LinuxExercise
+ ls
+LinuxExercise  README.md  TerminalSession.txt
+ cd LinuxExercise
+ pwd
+/home/runner/command-line-basics-assignment-NicholasLee03/LinuxExercise
+ touch myfile.txt
+ ls
+myfile.txt
+ echo this is my new file >> myfile.txt
+ cat myfile.txt
+this is my new file
+ cp myfile.txt myfile_copy.txt
+ ls
+myfile_copy.txt  myfile.txt
+ mv myfile_copy.txt myfile2.txt
+ ls
+myfile2.txt  myfile.txt
+ mv myfile2.txt ~
+ ls ~
+command-line-basics-assignment-NicholasLee03  myfile2.txt
+jdt.ls-java-project               _test_runner.py
+ cd ..
+ rm -r LinuxExercise/myfile.txt
+ rmdir LinuxExercise
+ ls ~
+command-line-basics-assignment-NicholasLee03  myfile2.txt
+jdt.ls-java-project               _test_runner.py
+ 
